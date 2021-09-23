@@ -1,0 +1,2 @@
+
+It is a simple program that recognizes numbers from a prepared data set
