@@ -40,9 +40,8 @@ model.save('digit.model')
 new_model = tf.keras.models.load_model('digit.model')
 # predictions
 predictions = new_model.predict([x_test])
-print(predictions)
+#print(predictions)
 print(np.argmax(predictions[0]))
 
 plt.imshow(x_test[0], cmap=plt.cm.binary) # cmp - color map (convert to black and white)
-print(x_test[0])
 plt.show()
